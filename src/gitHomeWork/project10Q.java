@@ -5,7 +5,7 @@ public class project10Q {
 	public static void main(String[] args) {
 		// Write a java program to find the second largest number in the array?
 
-		int[] ary= {41,15,40,43,33};
+		int[] ary= {41,15,40,43,33,88,77,100};
 		int temp1=0;
 		int secLarg=0;
 		int larg=ary[0];
@@ -22,7 +22,11 @@ public class project10Q {
 		}
 		
 		System.out.println("The second largest number is "+secLarg);
-
+		
+		
+		
+			
+		
 	}
 
 }

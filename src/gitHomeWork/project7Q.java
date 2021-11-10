@@ -12,6 +12,7 @@ public class project7Q {
 		
 		boolean isPrime=true;
 		int x =input.nextInt();
+		if(x>1) {
 		for(int i=2; i<x; i++) {
 			if(x%i==0) {
 				isPrime=false;
@@ -22,6 +23,7 @@ public class project7Q {
 			System.out.println(x+" is a prime number");
 		}else {
 			System.out.println(x+" is not a prime number");
+		}
 		}
 	}
 
