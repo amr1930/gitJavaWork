@@ -8,7 +8,6 @@ public class HW_2_C14 {
 
 		String str="ABCDEFGfghijk1234567&*^%$!@#$%";
 		
-		int countAlpha=0;
 		String str1;
 		str1=str.replaceAll("[^A-Za-z0-9]", "");
 		System.out.println(str1.length());
